@@ -20,7 +20,7 @@ function addMovie() {
             const movieCard = document.createElement('div');
             movieCard.classList.add('col-md-6', 'mb-4');
 
-            const movieTitle = document.createElement('h4');
+            const movieTitle = document.createElement('h5');
             movieTitle.textContent = movie.title;
             movieCard.appendChild(movieTitle);
 
