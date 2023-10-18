@@ -1,0 +1,10 @@
+/* #containeR {
+    position: relative;
+    text-align: center;
+    margin-top: 300px !important;
+    border: 1px solid white;
+    } */
+
+.card {
+    box-shadow:5px 5px 5px gainsboro;
+}
