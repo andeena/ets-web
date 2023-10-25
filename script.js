@@ -29,7 +29,6 @@ function displayMovies(data) {
     `;
     row.append(card);
 
-    // Add a new row after every 2 cards
     if ((index + 1) % 2 === 0 || index === data.length - 1) {
       movieTable.append(row);
       row = $('<div class="row"></div>');
