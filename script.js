@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $.ajax({
     url: 'https://it-its.id/api/movies',
-    method: 'GET',
+    method: 'GET', // ga terlalu ngaruh
     dataType: 'json',
     success: function(data) {
       displayMovies(data);
